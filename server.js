@@ -28,7 +28,7 @@ app.get('/about', (req, res) => {
 
 // Catch all 404 page
 app.get('*', (req, res) => {
-    res.status(404).send("You\'ve reach the 404 not found page. Please return to localhost:3000 or localhost:3000/about. I will add a return button if I have time.");
+    res.status(404).send("You\'ve reach the 404 not found page. Please return to localhost:3000 or localhost:3000/about");
 })
 
 // Listen
